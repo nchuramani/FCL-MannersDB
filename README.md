@@ -22,6 +22,11 @@ Ensure you have the necessary dependencies installed. Run the following command 
 pip install -r requirements.txt
 ```
 
+## Dataset
+
+Access to the Manners-DB data files can be requested here: https://github.com/jonastjoms/MANNERS-DB/tree/master
+The csv file with the labels, once acquired, should be placed under ```Data/all_data.csv```. Currently, a dummy file is included for reference.
+
 ## Training
 
 The repository is divided into two parts
