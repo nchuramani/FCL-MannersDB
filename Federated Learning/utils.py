@@ -23,3 +23,5 @@ def model():
       ]
   )
   return mod
+
+datapath='/path/to/csv'
