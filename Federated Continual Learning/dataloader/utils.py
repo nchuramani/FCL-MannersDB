@@ -1,7 +1,5 @@
 import pandas as pd
 import os
-import torchvision.transforms as transforms
-from .imageloader import CustomDataset
 from torch.utils.data import random_split, DataLoader
 from .dataloader import MyDataset
 import torch
