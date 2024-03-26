@@ -2,17 +2,18 @@
 
 ## Overview
 
-This is a PyTorch-based code implementation for the paper titled [Federated Learning of Socially Appropriate Agent Behaviors in Simulated Home Environments](#) paper published at the HRI '24: Workshop on Lifelong Learning and Personalization in Long-Term Human-Robot Interaction (LEAP-HRI), ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2024. 
+This is a PyTorch-based code implementation for the paper titled [Federated Learning of Socially Appropriate Agent Behaviors in Simulated Home Environments](https://arxiv.org/abs/2403.07586) paper published at the HRI '24: Workshop on Lifelong Learning and Personalization in Long-Term Human-Robot Interaction (LEAP-HRI), ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2024. 
 The paper explores the use of Federated Learning (FL) and Federated Continual Learning (FCL) techniques to train agents in simulated home environments, focusing on socially appropriate behaviors.
 
 
 ## Table of Contents
 
 - [Installation](#installation)
+- [Data](#dataset)
 - [Training](#training)
 - [Results](#results)
-- [Contributers](#contributors)
-- [License](#license)
+- [Citation](#citation)
+- [Acknowledgement](#acknowledgement)
 
 ## Installation
 
@@ -24,7 +25,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Access to the Manners-DB data files can be requested here: https://github.com/jonastjoms/MANNERS-DB/tree/master
+Access to the Manners-DB data files can be requested here: https://github.com/jonastjoms/MANNERS-DB/.
 The csv file with the labels, once acquired, should be placed under ```Data/all_data.csv```. Currently, a dummy file is included for reference.
 
 ## Training
@@ -34,10 +35,10 @@ The repository is divided into two parts
 - Federated Continual Learning
 
 ### Federated Learning
-Each Strategy is setup in a seperate Jupyter Notebook (FedAvg, FedBN, FedProx, FedOptAdam, FedDistil) both without and with data augmentation.
+Each Strategy is setup in a separate Jupyter Notebook (FedAvg, FedBN, FedProx, FedOptAdam, FedDistil) both without and with data augmentation.
 
 ### Federated Continual Learning
-FCL strategies are implementad as python packages. To execute the code for the benchmark on MANNERS-DB run the following:
+FCL strategies are implemented as python packages. To execute the code for the benchmark on MANNERS-DB run the following:
 
 ```bash
 bash Federated Continual Learning/run_FCL_local.sh
