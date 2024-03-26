@@ -6,6 +6,7 @@ This is a PyTorch-based code implementation for the paper titled [Federated Lear
 The paper explores the use of Federated Learning (FL) and Federated Continual Learning (FCL) techniques to train agents in simulated home environments, focusing on socially appropriate behaviors.
 
 
+<<<<<<< HEAD
 ## Table of Contents
 
 - [Installation](#installation)
@@ -15,6 +16,8 @@ The paper explores the use of Federated Learning (FL) and Federated Continual Le
 - [Citation](#citation)
 - [Acknowledgement](#acknowledgement)
 
+=======
+>>>>>>> 2e0b3b8d5bc26ce2062034a2bfceeea3783c7ef8
 ## Installation
 
 Ensure you have the necessary dependencies installed. Run the following command to set up the environment:
